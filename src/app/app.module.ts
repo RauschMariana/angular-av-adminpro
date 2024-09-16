@@ -6,6 +6,7 @@ import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
 import { NotpagefoundComponent } from './notpagefound/notpagefound.component';
+import { SharedModule } from "./shared/shared.module";
 
 
 
@@ -19,8 +20,9 @@ import { NotpagefoundComponent } from './notpagefound/notpagefound.component';
     BrowserModule,
     RouterModule,
     PagesModule,
-    AuthModule
-  ],
+    AuthModule,
+    SharedModule
+],
 
   bootstrap: [AppComponent]
 })
