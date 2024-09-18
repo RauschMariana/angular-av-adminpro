@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-body">
+        <h3>{{ title }}</h3>
+       <div class="display-flex justify-content-center">
+            <canvas
+                    baseChart 
+                    [data]="doughnutChartData" 
+                    [labels]="doughnutChartLabels"
+                    [options]="chartOptions"
+                    type="doughnut">
+                    
+            </canvas>
+        </div>
+
+    </div>
+</div>
